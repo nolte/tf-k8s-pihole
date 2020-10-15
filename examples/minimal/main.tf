@@ -5,7 +5,7 @@ resource "kubernetes_namespace" "acc_namespace" {
 }
 
 module "install" {
-  source = "../../modules/install"
+  source    = "../../modules/install"
   namespace = kubernetes_namespace.acc_namespace.metadata[0].name
 }
 
