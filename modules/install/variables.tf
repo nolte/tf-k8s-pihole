@@ -8,7 +8,7 @@ variable "extra_dns_entries" {
 }
 
 variable "chart_version" {
-  default = "1.7.18"
+  default = "1.7.19"
 }
 
 variable "extra_values" {
